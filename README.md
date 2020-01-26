@@ -1,11 +1,20 @@
 # luks-lvm
+### What is this about?
 How to create a safe LUKS container in linux (ubuntu) with LVM
+
 Includes overwriting the partition with random data before creating the actual container.
+
+### Additional infos
+
 For GUI fans, a lot of those commands can be performed using the gnome-disk-utility
 
 Replace /dev/sdXY with your device path
+
 Replace sdXY_crypt with your desired cryptconatiner name. For ease of use, don't use dashes or other special characters.
+
 Replace the swap size with about 125% of your RAM size.
+
+### The procedure
 
 1. Create temporary encrypted partition
 ```shell
