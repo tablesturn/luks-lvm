@@ -57,4 +57,3 @@ lvcreate -n linuxroot -l +100%FREE vgname
 
 Done.
 
-ToDo: Make this really beautiful
