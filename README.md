@@ -55,10 +55,9 @@ lvcreate -n linuxswap -L 20G vgname
 lvcreate -n linuxroot -l +100%FREE vgname
 ```
 
-Extra: Format whole encrypted partition with ext4 (so no lvm)
+Done.
+
+### Extra: Format whole encrypted partition with ext4 (so no lvm)
 ```shell
 mkfs.ext4 /dev/mapper/sdXYcrypt
 ```
-
-Done.
-
